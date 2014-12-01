@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 8f27633587f9d4b1c98219888d2da13b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ash_0
+    21300002: Ash_1
+    21300004: Ash_2
+    21300006: Ash_3
+    21300008: Ash_4
+    21300010: Ash_5
+    21300012: Ash_6
+    21300014: Ash_7
+    21300016: Ash_8
+    21300018: Ash_9
+    21300020: Ash_10
+    21300022: Ash_11
+    21300024: Ash_12
+    21300026: Ash_13
+    21300028: Ash_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ash_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 208
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 206
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 206
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 176
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 174
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 174
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 142
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 142
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 141
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 107
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 107
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 11
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 9
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ash_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 7
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
