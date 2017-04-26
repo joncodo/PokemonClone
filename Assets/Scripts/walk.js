@@ -14,25 +14,27 @@ function Start () {
 }
 
 function Update () {
-	if(Input.GetAxisRaw("Horizontal") > 0 ){
-		setAnimation('walkRight');
+	//Movement
+	if(Input.GetKey(KeyCode.RightArrow)){
 		moveCharacter('right');
+		setAnimation('walkRight');
 	}
-	else if(Input.GetAxisRaw("Horizontal") < 0){
-		setAnimation('walkLeft');
+	else if(Input.GetKey(KeyCode.LeftArrow)){
 		moveCharacter('left');
+		setAnimation('walkLeft');
 	}
-	else if(Input.GetAxisRaw("Vertical") > 0){
-		setAnimation('walkUp');
+	else if(Input.GetKey(KeyCode.UpArrow)){
 		moveCharacter('up');
+		setAnimation('walkUp');
 	}
-	else if(Input.GetAxisRaw("Vertical") < 0){
-		setAnimation('walkDown');
+	else if(Input.GetKey(KeyCode.DownArrow)){
 		moveCharacter('down');
+		setAnimation('walkDown');
 	}
-	else{
+	else if(!Input.anyKey){
 		setAnimation('idle');
 	}
+
 }
 
 function moveCharacter(direction){
@@ -51,13 +53,13 @@ function moveCharacter(direction){
 		
 		case 'up':
 			startPoint = transform.position;
-			endPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z + speed);
+			endPoint = new Vector3(transform.position.x, transform.position.y + speed, transform.position.z);
 			transform.position = Vector3.Lerp(startPoint, endPoint, Time.deltaTime);
 		break;
 		
 		case 'down':
 			startPoint = transform.position;
-			endPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed);
+			endPoint = new Vector3(transform.position.x, transform.position.y - speed, transform.position.z);
 			transform.position = Vector3.Lerp(startPoint, endPoint, Time.deltaTime);
 		break;
 	}
